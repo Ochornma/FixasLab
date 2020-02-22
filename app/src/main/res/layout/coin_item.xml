@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/coin_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Coin Name"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/usd_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="USD PRICE"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
