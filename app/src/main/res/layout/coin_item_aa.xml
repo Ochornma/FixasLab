@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="coinresponsed"
+            type="org.promise.fixaslab.models.CoinResponse" />
+    </data>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/coin_symbol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="8dp"
+                    android:paddingRight="8dp"
+
+                    android:textSize="25sp"
+                    tools:ignore="RtlHardcoded,RtlSymmetry"
+                    tools:text="$" />
+
+                <TextView
+                    android:id="@+id/coin_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="8dp"
+                    android:paddingLeft="8dp"
+
+                    android:textSize="25sp"
+                    tools:ignore="RtlHardcoded,RtlSymmetry"
+                    tools:text="Coin Name" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/usd_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+
+                android:textSize="20sp"
+                tools:text="USD PRICE" />
+
+            <TextView
+                android:id="@+id/change"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="15sp"
+                tools:text="1.0988%" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

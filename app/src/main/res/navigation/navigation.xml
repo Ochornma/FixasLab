@@ -6,21 +6,21 @@
     app:startDestination="@id/mainFragment2">
     <fragment
         android:id="@+id/helpFragment"
-        android:name="org.promise.fixaslab.Fragments.HelpFragment"
+        android:name="org.promise.fixaslab.fragments.HelpFragment"
         android:label="fragment_help"
         tools:layout="@layout/fragment_help" />
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="org.promise.fixaslab.Fragments.SettingsFragment"
+        android:name="org.promise.fixaslab.fragments.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="org.promise.fixaslab.Fragments.AboutFragment"
+        android:name="org.promise.fixaslab.fragments.AboutFragment"
         android:label="fragment_about"
         tools:layout="@layout/fragment_about" />
     <fragment
         android:id="@+id/mainFragment2"
-        android:name="org.promise.fixaslab.Fragments.MainFragment"
+        android:name="org.promise.fixaslab.fragments.MainFragment"
         android:label="MainFragment" />
 </navigation>
