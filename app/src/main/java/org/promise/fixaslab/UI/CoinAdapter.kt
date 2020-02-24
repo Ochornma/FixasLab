@@ -1,16 +1,15 @@
-package org.promise.fixaslab
+package org.promise.fixaslab.UI
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
-import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.RecyclerView
 import org.promise.fixaslab.databinding.CoinItemAaBinding
 
-import org.promise.fixaslab.models.CoinResponse
+import org.promise.fixaslab.models.Coins
 
-class CoinAdapter(val coinList: List<CoinResponse>): RecyclerView.Adapter<CoinAdapter.CoinViewHolder>() {
+class CoinAdapter(val coinList: List<Coins>): RecyclerView.Adapter<CoinAdapter.CoinViewHolder>() {
 
 
 

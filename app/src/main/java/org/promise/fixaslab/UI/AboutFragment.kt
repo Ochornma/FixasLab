@@ -1,4 +1,4 @@
-package org.promise.fixaslab.fragments
+package org.promise.fixaslab.UI
 
 
 import android.os.Bundle

@@ -1,7 +1,8 @@
-package org.promise.fixaslab
+package org.promise.fixaslab.UI
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import org.promise.fixaslab.R
 
 class MainActivity : AppCompatActivity() {
 
